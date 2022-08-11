@@ -110,3 +110,30 @@ body{
     opacity: 1;
     transform: translate(50px, -50px);
   }
+  .lista-de-midia-sociais__item--linkedin span{
+    background-color: #0a66c2;
+  }
+  .lista-de-midia-sociais__item--github span{
+    background-color: #181717;
+  }
+  .lista-de-midia-sociais__item--google span{
+    background-color: #ea4335;
+  }
+  .lista-de-midia-sociais__item--medium span{
+    background-color: #000000;
+  }
+  .lista-de-midia-sociais__item--whatsapp span{
+    background-color: #25d366;
+  }
+  .lista-de-midia-sociais__item--codepen span{
+    background-color: #000000;
+  }
+  .lista-de-midia-sociais__item--instagram span{
+    background-color: #e4405f;
+  }
+  .lista-de-midia-sociais__item--discord span{
+    background-color: #5865f2;
+  }
+  .lista-de-midia-sociais__item--twitter span{
+    background-color: #1da1f2;
+  }
