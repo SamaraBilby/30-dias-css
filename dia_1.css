@@ -6,3 +6,71 @@
     text-decoration: none;
 }
 
+body{
+    align-items: center;
+    background-color: #633ca2;
+    display: flex;
+    min-height: 100vh;
+}
+
+.lista-de-midia-sociais{
+    display: flex;
+    flex-wrap: wrap; /* colocar a lista em linha um ao lado do outro*/
+    justify-content: center;
+    position: relative;
+}
+
+.lista-de-midia-sociais li {
+    background-color: #222;
+    height: 60px;
+    width: 60pxs;
+    margin: 25pxs;
+    position: relative;
+    transform: rotate(-25deg) skew(25deg);
+    transform-style: preserve-3d;
+}
+
+.lista-de-midia-sociais li::before{
+    content: "";
+    background-color: #222;
+    bottom: -10px;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    transform: skewX(-41deg);
+    transform-origin: top;
+    width: 100%;
+}
+
+.lista-de-midia-sociais li::after{
+    content: "";
+    background-color: #222;
+    height: 100%;
+    left: -9px;
+    position: absolute; /* importante a posiçao do position */
+    top: 0;
+    transform: skewY(-49deg);
+    transform-origin: right;
+    width: 9px;
+    
+    
+}
+
+.lista-de-midia-sociais li a{
+    font-size: 0.5em;
+}
+
+.lista-de-midia-sociais li a span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255, 0.7);
+    font-size: 30px;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    transition: 0.3s;
+    top: 0;
+    
+}
