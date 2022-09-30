@@ -4,3 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #6C3483;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
